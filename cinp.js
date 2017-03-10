@@ -1,6 +1,13 @@
-// CINP jquery client
-// version 0.9
-// for API version 0.9
+/*
+ * CInP jquery client
+ * version 0.9
+ * for CInP API version 0.9
+ *
+ * Copyright Peter Howe, Floyd Arguello
+ * Released under the Apache 2.0 license
+ *
+ * Last modified 2016-03-09
+ */
 
 var cinpBuilder = {};
 (
