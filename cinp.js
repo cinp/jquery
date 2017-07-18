@@ -342,7 +342,7 @@ var cinpBuilder = {};
               {
                 data = JSON.parse( data );
               }
-              deferred.resolve( data, uri );
+              deferred.resolve( data, xhr.getResponseHeader( 'Multi-Object' ), uri );
             }
           )
           .fail( function( xhr ) { this._ajax_fail( 'Call', uri, deferred, xhr ); }.bind( this ) );
