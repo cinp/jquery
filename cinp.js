@@ -59,7 +59,7 @@ var cinpBuilder = {};
           url: this.host + uri,
           dataType: 'json',
           accepts: { json: 'application/json', text: 'application/json' },
-          headers: $.extend( {}, header_map, { 'CInP-Version': '0.9' } ),
+          headers: $.extend( {}, header_map, { 'CInP-Version': '1.0' } ),
           data: JSON.stringify( data ),
           contentType: 'application/json',
           processData: false,
